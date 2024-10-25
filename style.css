@@ -7,11 +7,16 @@ body{
     font-family: "Montserrat", sans-serif;
 }
 
+.center{
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
 a{
     text-decoration: none;
 }
 
-.header{
+.top{
     background-image: url(img/headerback.jpg);
     background-repeat: no-repeat;
     background-position: center;
