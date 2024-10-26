@@ -31,6 +31,8 @@ a {
   line-height: 78px;
   letter-spacing: 0px;
   text-align: left;
+  padding-top: 196px;
+  padding-bottom: 24px;
 }
 .top__text {
   color: rgb(32, 32, 39);
@@ -55,6 +57,7 @@ a {
   text-align: center;
   cursor: pointer;
   font: inherit;
+  margin-top: 48px;
 }
 .top__button:hover {
   color: rgb(32, 32, 39);
@@ -73,6 +76,8 @@ a {
   font-weight: 700;
   line-height: 78px;
   text-align: left;
+  padding-top: 94px;
+  padding-bottom: 24px;
 }
 .main__text {
   color: rgb(255, 255, 255);
@@ -80,6 +85,7 @@ a {
   font-weight: 400;
   line-height: 32px;
   text-align: left;
+  padding-bottom: 72px;
 }
 .main__game {
   display: flex;
