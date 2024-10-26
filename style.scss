@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+a {
+    text-decoration: none;
+}
+
+.top {
+    height: 800px;
+    background-image: url(img/headerback.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    block-size: cover;
+    &__title {
+            color: rgb(32, 32, 39);
+            font-size: 64px;
+            font-weight: 700;
+            line-height: 78px;
+            letter-spacing: 0px;
+            text-align: left;
+        }
+    &__text {
+            color: rgb(32, 32, 39);
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 32px;
+            letter-spacing: 0px;
+            text-align: left;
+            &-bold {
+                    font-weight: 600;
+                }
+        }
+        &__button {
+            box-sizing: border-box;
+            padding: 16px 65px;
+            border: 1px solid rgb(32, 32, 39);
+            border-radius: 60px;
+            background: rgb(32, 32, 39);
+            color: rgb(255, 255, 255);
+            font-size: 24px;
+            font-weight: 600;
+            text-align: center;
+            cursor: pointer;
+            font: inherit;
+    
+            &:hover {
+                color: rgb(32, 32, 39);
+                background: rgb(255, 255, 255);
+            }
+        }
+}
+
+
+
+
+
+
+
+
+
