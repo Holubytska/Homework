@@ -153,4 +153,17 @@ a {
 }
 .main__link-2:hover {
   transform: scale(1.1);
+}
+
+.footer {
+  min-height: 150px;
+  background: rgb(189, 237, 53);
+}
+.footer__text {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  text-align: center;
+  padding-top: 60px;
 }/*# sourceMappingURL=style.css.map */
