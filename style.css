@@ -19,27 +19,27 @@ a {
 
 .top {
   min-height: 800px;
-  background-image: url(img/topback.jpg);
+  background-image: url(img/topstar1.png), url(img/topstar2.png), url(img/topstar3.png), url(img/topstar4.png), url(img/topstar5.png);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-position: 7% 15%, 12% 8%, 65% 70%, 75% 80%, top right;
+  background-size: 57px 57px, 35px 35px, 37px 37px, 83px 83px, 700px 700px;
+  background-color: rgb(225, 255, 143);
 }
 .top__title {
   color: rgb(32, 32, 39);
   font-size: 64px;
   font-weight: 700;
   line-height: 78px;
-  letter-spacing: 0px;
   text-align: left;
   padding-top: 196px;
   padding-bottom: 24px;
+  max-width: 769px;
 }
 .top__text {
   color: rgb(32, 32, 39);
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
-  letter-spacing: 0px;
   text-align: left;
   margin-bottom: 48px;
 }
@@ -56,21 +56,20 @@ a {
   text-align: center;
   font-size: 24px;
   font-weight: 600;
+  font-family: inherit;
 }
 .top__button:hover {
   color: rgb(32, 32, 39);
   background: rgb(255, 255, 255);
 }
-.top__animation {
-  width: 100%;
-  margin-top: 156px;
-}
 
 .main {
-  background-image: url(img/mainback.jpg);
+  background-color: rgb(32, 32, 39);
+  background-image: url(img/mainstar1.png), url(img/mainstar2.png), url(img/mainbigstar.png);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-position: 2% 50%, 4% 55%, top 10% right;
+  background-size: 32px 32px, 55px 55px, 585px 585px;
+  padding-bottom: 96px;
 }
 .main__title {
   color: rgb(255, 255, 255);
@@ -87,6 +86,7 @@ a {
   font-weight: 400;
   line-height: 32px;
   text-align: left;
+  max-width: 788px;
   padding-bottom: 72px;
 }
 .main__game {
@@ -105,6 +105,15 @@ a {
 .main__game-wrapper:hover {
   transform: scale(1.1);
 }
+.main__game-wrapper-1 {
+  height: 473px;
+}
+.main__game-wrapper-2 {
+  height: 512px;
+}
+.main__game-wrapper-3 {
+  height: 551px;
+}
 .main__img {
   border-radius: 30px;
 }
@@ -113,12 +122,18 @@ a {
   font-size: 16px;
   font-weight: 500;
   text-align: left;
+  background-color: rgb(247, 247, 247);
+  width: 112px;
+  height: 36px;
+  border-radius: 52px;
+  padding: 8px 16px;
+  cursor: pointer;
 }
 .main__link-wrapper {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  padding: 32px;
+  padding: 32px 32px 36px 32px;
 }
 .main__link-1 {
   color: rgb(32, 32, 39);
