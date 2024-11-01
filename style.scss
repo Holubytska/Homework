@@ -177,6 +177,8 @@ a {
 
 .game{
     background-color: rgba(32, 32, 39, 1);
+    background-image: url(img/gamestar1.png),
+                      url(img/gamestar2.png);
     &__title{
         color: rgb(255, 255, 255);
         font-size: 64px;
