@@ -175,6 +175,17 @@ a {
     
 }
 
+.game{
+    background-color: rgba(32, 32, 39, 1);
+    &__title{
+        color: rgb(255, 255, 255);
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 78px;
+        text-align: left;
+    }
+}
+
 .footer{
     min-height: 150px;
     background: rgb(189, 237, 53);
