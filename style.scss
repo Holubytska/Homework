@@ -179,12 +179,57 @@ a {
     background-color: rgba(32, 32, 39, 1);
     background-image: url(img/gamestar1.png),
                       url(img/gamestar2.png);
+    background-repeat: no-repeat;
+    background-position: 85% 1.5%, 
+                         95% 2.5%;
+    background-size: 35px 35px,
+                     68px 68px;
     &__title{
         color: rgb(255, 255, 255);
         font-size: 64px;
         font-weight: 700;
         line-height: 78px;
         text-align: left;
+    }
+    &__wrap{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        padding-top: 72px;
+        padding-bottom: 144px;
+    }
+    &__wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: rgb(255, 255, 255);
+        border-radius: 30px;
+    }
+    &__content{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        padding: 48px;
+        
+            
+    }
+    &__subtitle{
+        color: rgb(32, 32, 39);
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 59px;
+        text-align: left;
+    }
+    &__text{
+        color: rgb(32, 32, 39);
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        text-align: left;
+    }
+    &__img{
+        border-radius: 30px;
     }
 }
 
