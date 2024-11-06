@@ -1,27 +1,18 @@
-// Задание 5
+// Дополнительные задания:
+// Задание 1
 
-let monthNumber = String(prompt('Введите номер месяца'));
-switch (monthNumber) {
-    case '12':
-    case '1':
-    case '2':
-        console.log('Зима');
-        break;
-    case '3':
-    case '4':
-    case '5':
-        console.log('Весна');
-        break;
-    case '6':
-    case '7':
-    case '8':
-        console.log('Лето');
-        break;
-    case '9':
-    case '10':
-    case '11':
-        console.log('Осень');
-        break;
-    default: console.log('Месяца с таким номером не существует');
-        break;
+let anyNumber = Number(prompt("Пожалуйста, введите любое число"));
+let result = Number(anyNumber);
+
+if (isNaN(result)) {
+    console.log('Не число');
+} else { 
+    console.log('Число');
 }
+
+if (result % 2 === 0) {
+      alert('Чётное');
+} else {
+      alert('Нечетное');
+}
+    
