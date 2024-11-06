@@ -1,12 +1,8 @@
-// Задание 3
+// Задание 4
 
-let d = Number(prompt('Введите первое число'));
-let e = Number(prompt('Введите второе число'));
+let a = '2';
+let b = '3';
 
-if (d > 100 || e > 100) {
-    console.log('Верно');
-} else {
-    console.log('Неверно');
-}
+alert(+a + +b);
 
 
