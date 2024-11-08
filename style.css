@@ -161,10 +161,6 @@ a {
   background-repeat: no-repeat;
   background-position: 85% 1.5%, 95% 2.5%;
   background-size: 35px 35px, 68px 68px;
-  background-image: url(img/gamestar1.png), url(img/gamestar2.png);
-  background-repeat: no-repeat;
-  background-position: 87% 15%, 92% 20%;
-  background-size: 35px 35px, 68px 68px;
 }
 .game__title {
   color: rgb(255, 255, 255);
