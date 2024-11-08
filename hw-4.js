@@ -138,8 +138,13 @@ for (const key in book) {
 
 // Задание 4
 
-let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-for (let i = 1; i < 2; i++) {
-	console.log(arr[i]);
+// for (let i = 1; i < 2; i++) {
+// 	console.log(arr[i]);
+// }
+
+let arr = [1, 2, 3, 4, 5];
+for (let elem of arr) {
+	console.log(elem);
 }
