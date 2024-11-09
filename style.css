@@ -154,15 +154,12 @@ a {
 .main__link-2:hover {
   transform: scale(1.1);
 }
+
 .game {
   background-color: rgb(32, 32, 39);
   background-image: url(img/gamestar1.png), url(img/gamestar2.png);
   background-repeat: no-repeat;
   background-position: 85% 1.5%, 95% 2.5%;
-  background-size: 35px 35px, 68px 68px;
-  background-image: url(img/gamestar1.png), url(img/gamestar2.png);
-  background-repeat: no-repeat;
-  background-position: 87% 15%, 92% 20%;
   background-size: 35px 35px, 68px 68px;
 }
 .game__title {
@@ -210,18 +207,21 @@ a {
 .game__img {
   border-radius: 30px;
 }
-
-.footer {
-  min-height: 150px;
-  background: rgb(189, 237, 53);
-}
-.footer__text {
-  color: rgb(0, 0, 0);
+.game__button {
+  display: inline-block;
+  padding: 16px 65px;
+  border: 1px solid rgb(32, 32, 39);
+  border-radius: 60px;
+  background: rgb(32, 32, 39);
+  color: rgb(255, 255, 255);
+  text-align: center;
   font-size: 24px;
   font-weight: 600;
-  line-height: 29px;
-  text-align: center;
-  padding-top: 60px;
+  font-family: inherit;
+}
+.game__button:hover {
+  color: rgb(32, 32, 39);
+  background: rgb(255, 255, 255);
 }
 
 @media (max-width: 1024px) {

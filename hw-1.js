@@ -6,12 +6,12 @@
 // alert(a);
 
 // Задание 2
-let date = 2007;
-alert(date);
+// let date = 2007;
+// alert(date);
 
-// Задание 3
-let name = "Брендан Эйх";
-alert(name);
+// // Задание 3
+// let name = "Брендан Эйх";
+// alert(name);
 
 // Задание 4
 // let a = 10;
@@ -31,29 +31,29 @@ alert(name);
 
 // Задание 5
 
-let result = 2 ** 5;
-alert(result);
+// let result = 2 ** 5;
+// alert(result);
 
 // Задание 6
-let a = 9;
-let b = 2;
-let remainder = a % b;
-alert(remainder);
+// let a = 9;
+// let b = 2;
+// let remainder = a % b;
+// alert(remainder);
 
-// Задание 7
-let num = 1;
-num += 5;
-num -= 3;
-num *= 7;
-num /= 3;
-num = num ++;
-num = num --;
-alert(num);
+// // Задание 7
+// let num = 1;
+// num += 5;
+// num -= 3;
+// num *= 7;
+// num /= 3;
+// num = num ++;
+// num = num --;
+// alert(num);
 
-// Задание 8
+// // Задание 8
 
-let age = Number(prompt('Сколько вам лет'));
-alert(age);
+// let age = Number(prompt('Сколько вам лет'));
+// alert(age);
 
 // Задание 9
 
@@ -70,18 +70,18 @@ alert(age);
 
 // Дополнительное задание
 
-let hiddenNumber = Number(prompt('Загадайте любое число'));
+// let hiddenNumber = Number(prompt('Загадайте любое число'));
 
-let doubleNumber = hiddenNumber * 2;
-alert(doubleNumber);
+// let doubleNumber = hiddenNumber * 2;
+// alert(doubleNumber);
 
-let biggerNumber = doubleNumber + 10;
-alert(biggerNumber);
+// let biggerNumber = doubleNumber + 10;
+// alert(biggerNumber);
 
-let dividedNumber = biggerNumber / 2;
-alert(dividedNumber);
+// let dividedNumber = biggerNumber / 2;
+// alert(dividedNumber);
 
-let originalNumber = dividedNumber - hiddenNumber;
-alert(originalNumber);
+// let originalNumber = dividedNumber - hiddenNumber;
+// alert(originalNumber);
 
-alert(`Вы загадали ${originalNumber}`);
+// alert(`Вы загадали ${originalNumber}`);

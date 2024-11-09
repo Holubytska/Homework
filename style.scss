@@ -57,7 +57,7 @@ a {
                     font-weight: 600;
                 }
         }
-        &__button{
+     &__button{
             display: inline-block;
             padding: 16px 65px;
             border: 1px solid rgb(32, 32, 39);
@@ -175,7 +175,6 @@ a {
     
 }
 
-@import 'mobile';
 .game{
     background-color: rgba(32, 32, 39, 1);
     background-image: url(img/gamestar1.png),
@@ -231,6 +230,23 @@ a {
     }
     &__img{
         border-radius: 30px;
+    }
+    &__button{
+        display: inline-block;
+            padding: 16px 65px;
+            border: 1px solid rgb(32, 32, 39);
+            border-radius: 60px;
+            background: rgb(32, 32, 39);
+            color: rgb(255, 255, 255);
+            text-align: center;
+            font-size: 24px;
+            font-weight: 600;
+            font-family: inherit;
+        
+            &:hover {
+                color: rgb(32, 32, 39);
+                background: rgb(255, 255, 255);
+            }
     }
 }
 
