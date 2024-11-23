@@ -29,10 +29,12 @@ function gameTwo() {
       break;
   }
 
+ 
+
   const userMessage = prompt(
     `Попробуй решить простые арифметические задачи ${num1} ${operator} ${num2}`
   );
-  const userAnswer = Number(prompt(userMessage));
+  const userAnswer = Number(userMessage);
 
   if (result === userAnswer) {
     alert("Правильно");
@@ -41,11 +43,6 @@ function gameTwo() {
   }
 }
 
-
-
-// function gameTwo(a, b) {
-//   return a + b;
-// }
 
 // Задания на работу с кодом
 
