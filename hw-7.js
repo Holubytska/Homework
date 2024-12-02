@@ -162,3 +162,4 @@ function stoneScissorsPaper() {
 // }
 
 // delayForSecond(() => sayHi("Глеб"));
+
