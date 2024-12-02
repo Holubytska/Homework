@@ -57,7 +57,7 @@ function simpleQuiz() {
 
 //  products.forEach((product) => {
 //    if (product.toLowerCase().startsWith(search.toLowerCase())) {
-//       console.log(product);
+//       console.log(products);
 //    }
 // });
 
