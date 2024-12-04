@@ -52,14 +52,17 @@ function simpleQuiz() {
 // Создать функцию, которая принимает массив строк и строку. Функция должна вернуть новый массив, содержащий только те элементы первого массива, которые начинаются со второй строки. Регистр символов не влияет на результат.
 // Используйте функции toLowerCase() и startsWith() для сравнения начала строк.
 
-// const products = ["Кресло Ален", "Диван Малютка", "Стол обеденный", "Диван Книжка", "Стул Седло"];
-// const search = "диван";
+// function filter(arr, str) {
+//   let result = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i].toLowerCase().startsWith(str.toLowerCase())) {
+//       result.push(arr[i]);
+//     }
+//   }
+//   return result;
+// }
 
-//  products.forEach((product) => {
-//    if (product.toLowerCase().startsWith(search.toLowerCase())) {
-//       console.log(products);
-//    }
-// });
+// console.log(filter(["JavaScript", "Java", "Python"], "ja"));
 
 
 // Задание 3
@@ -107,6 +110,10 @@ function simpleQuiz() {
 
 // console.log(random(10));
 
+// function getRandomNumber(num) {
+//     return Array.from({ length: Math.floor(num / 2) }, () => Math.floor(Math.random() * num));
+// }
+// console.log(getRandomNumber(10));
 
 // Задание 7
 // Создать функцию, которая принимает два целых числа и возвращает случайное число в этом диапазоне.

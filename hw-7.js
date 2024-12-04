@@ -23,6 +23,7 @@ function stoneScissorsPaper() {
   } else {
     alert("Компьютер победил!");
   }
+  
 }
 
 
