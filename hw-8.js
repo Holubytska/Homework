@@ -3,10 +3,10 @@ const btnEL = document.querySelector(".btn");
 const titleEl = document.querySelector(".title");
 
 btnEL.addEventListener("click", () => {
-  if (titleEl.style.visibility === "visible") {
-    titleEl.style.visibility = "hidden";
-  } else {
+  if (titleEl.style.visibility === "hidden") {
     titleEl.style.visibility = "visible";
+  } else {
+    titleEl.style.visibility = "hidden";
   }
 });
 
