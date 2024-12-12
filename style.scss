@@ -1,260 +1,269 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .center {
-    padding-left: calc(50% - 600px);
-    padding-right: calc(50% - 600px);
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .top {
-    min-height: 800px;
-    background-image: url(img/topstar1.png),
-                      url(img/topstar2.png),
-                      url(img/topstar3.png),
-                      url(img/topstar4.png),
-                      url(img/topstar5.png);
-    background-repeat: no-repeat;
-    background-position: 7% 15%, 
-                         12% 8%,
-                         65% 70%,
-                         75% 80%,
-                         top right ;
-    background-size: 57px 57px,
-                     35px 35px,
-                     37px 37px,
-                     83px 83px,
-                     700px 700px;
-    background-color: rgba(225, 255, 143, 1);
-    &__title {
-            color: rgb(32, 32, 39);
-            font-size: 64px;
-            font-weight: 700;
-            line-height: 78px;
-            text-align: left;
-            padding-top: 196px;
-            padding-bottom: 24px;
-            max-width: 769px;
-        }
-    &__text {
-            color: rgb(32, 32, 39);
-            font-size: 24px;
-            font-weight: 400;
-            line-height: 32px;
-            text-align: left;
-            max-width: 720px;
-            margin-bottom: 48px;
-            &-bold {
-                    font-weight: 600;
-                }
-        }
-     &__button{
-            display: inline-block;
-            padding: 16px 65px;
-            border: 1px solid rgb(32, 32, 39);
-            border-radius: 60px;
-            background: rgb(32, 32, 39);
-            color: rgb(255, 255, 255);
-            text-align: center;
-            font-size: 24px;
-            font-weight: 600;
-            font-family: inherit;
-            &:hover{
-                color: rgb(32, 32, 39);
-                background: rgb(255, 255, 255);
-            }
-        }
+  min-height: 800px;
+  background-image: url(img/topstar1.png), url(img/topstar2.png),
+    url(img/topstar3.png), url(img/topstar4.png), url(img/topstar5.png);
+  background-repeat: no-repeat;
+  background-position: 7% 15%, 12% 8%, 65% 70%, 75% 80%, top right;
+  background-size: 57px 57px, 35px 35px, 37px 37px, 83px 83px, 700px 700px;
+  background-color: rgba(225, 255, 143, 1);
+  &__title {
+    color: rgb(32, 32, 39);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    text-align: left;
+    padding-top: 196px;
+    padding-bottom: 24px;
+    max-width: 769px;
+  }
+  &__text {
+    color: rgb(32, 32, 39);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    max-width: 720px;
+    margin-bottom: 48px;
+    &-bold {
+      font-weight: 600;
+    }
+  }
+  &__button {
+    display: inline-block;
+    padding: 16px 65px;
+    border: 1px solid rgb(32, 32, 39);
+    border-radius: 60px;
+    background: rgb(32, 32, 39);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: inherit;
+    &:hover {
+      color: rgb(32, 32, 39);
+      background: rgb(255, 255, 255);
+    }
+  }
 }
 
-.main{
-    background-color:rgba(32, 32, 39, 1);
-    background-image: url(img/mainstar1.png),
-                      url(img/mainstar2.png),
-                      url(img/mainbigstar.png);
-    background-repeat: no-repeat;
-    background-position: 2% 50%,
-                         4% 55%,
-                         top 10% right;
-    background-size: 32px 32px,
-                     55px 55px,
-                     585px 585px;
-    padding-bottom: 96px;
-    &__title{
-        color: rgb(255, 255, 255);
-        font-size: 64px;
-        font-weight: 700;
-        line-height: 78px;
-        text-align: left;
-        padding-top: 94px;
-        padding-bottom: 24px;
-            }
-
-    &__text{
-        color: rgb(255, 255, 255);
-        font-size: 24px;
-        font-weight: 400;
-        line-height: 32px;
-        text-align: left;
-        max-width: 750px;
-        padding-bottom: 72px;
-    }
-    &__game{
-        display: flex;
-        gap: 32px;
-        flex-wrap: wrap;
-        &-wrapper{
-            width: 378px;
-            display: flex;
-            flex-direction: column;
-            background-color: rgb(255, 255, 255);
-            border-radius: 30px;
-            transition: transform 1s;
-            &:hover{
-                transform: scale(1.1);
-            }
-            &-1{
-                height: 473px;
-            }
-            &-2{
-                height: 512px;
-            }
-            &-3{
-                height: 551px;
-            }
-        }
-    }
-    &__img{
-        border-radius: 30px;
-    }
-    &__link{
-        color: rgb(32, 32, 39);
-        font-size: 16px;
-        font-weight: 500;
-        text-align: left;
-        background-color: rgb(247, 247, 247);
-        width: 112px;
-        height: 36px;
-        border-radius: 52px;
-        padding: 8px 16px;
-        cursor: pointer;
-        &-wrapper{
-                display: flex;
-                flex-direction: column;
-                gap: 16px;
-                padding: 32px 32px 36px 32px;
-        }
-        &-1{
-            color: rgb(32, 32, 39);
-            font-size: 32px;
-            font-weight: 700;
-            line-height: 39px;
-            text-align: left;
-        }
-        &-2{
-            display: flex;
-            flex-direction: column;
-            width: 378px;
-            min-height: 160px;
-            background-color: rgb(255, 255, 255);
-            border-radius: 30px;
-            transition: transform 1s;
-            &:hover{
-                transform: scale(1.1);
-            }
-        }
-    }
-    
-}
-
-.game{
-    background-color: rgba(32, 32, 39, 1);
-    background-image: url(img/gamestar1.png),
-                      url(img/gamestar2.png);
-    background-repeat: no-repeat;
-    background-position: 85% 1.5%, 
-                         95% 2.5%;
-    background-size: 35px 35px,
-                     68px 68px;
-    &__title{
-        color: rgb(255, 255, 255);
-        font-size: 64px;
-        font-weight: 700;
-        line-height: 78px;
-        text-align: left;
-    }
-    &__wrap{
-        display: flex;
-        flex-direction: column;
-        gap: 32px;
-        padding-top: 72px;
-        padding-bottom: 144px;
-    }
+.ticker{
+    background: rgba(188, 236, 48, 1);
+    position: relative;
+    overflow: hidden;
     &__wrapper{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        background-color: rgb(255, 255, 255);
-        border-radius: 30px;
+    display: flex;
     }
-    &__content{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 24px;
-        padding: 48px;
-        
-            
-    }
-    &__subtitle{
-        color: rgb(32, 32, 39);
-        font-size: 48px;
-        font-weight: 700;
-        line-height: 59px;
-        text-align: left;
-    }
-    &__text{
-        color: rgb(32, 32, 39);
-        font-size: 24px;
-        font-weight: 400;
-        line-height: 32px;
-        text-align: left;
-    }
-    &__img{
-        border-radius: 30px;
-    }
-    &__button{
-        display: inline-block;
-            padding: 16px 65px;
-            border: 1px solid rgb(32, 32, 39);
-            border-radius: 60px;
-            background: rgb(32, 32, 39);
-            color: rgb(255, 255, 255);
-            text-align: center;
-            font-size: 24px;
-            font-weight: 600;
-            font-family: inherit;
-        
-            &:hover {
-                color: rgb(32, 32, 39);
-                background: rgb(255, 255, 255);
-            }
+    &__item {
+    white-space: nowrap;
+    flex-shrink: 0;
+    animation: ticker 15s linear infinite;
     }
 }
 
+@keyframes ticker{
+    0%{
+     transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);  
+    }
+}
 
-@import 'tablet';
-@import 'mobile';
+.main {
+  background-color: rgba(32, 32, 39, 1);
+  background-image: url(img/mainstar1.png), url(img/mainstar2.png),
+    url(img/mainbigstar.png);
+  background-repeat: no-repeat;
+  background-position: 2% 50%, 4% 55%, top 10% right;
+  background-size: 32px 32px, 55px 55px, 585px 585px;
+  padding-bottom: 96px;
+  &__title {
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    text-align: left;
+    padding-top: 94px;
+    padding-bottom: 24px;
+  }
 
+  &__text {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    max-width: 750px;
+    padding-bottom: 72px;
+  }
+  &__game {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    &-wrapper {
+      width: 378px;
+      display: flex;
+      flex-direction: column;
+      background-color: rgb(255, 255, 255);
+      border-radius: 30px;
+      transition: transform 1s;
+      &:hover {
+        transform: scale(1.1);
+      }
+      &-1 {
+        height: 473px;
+      }
+      &-2 {
+        height: 512px;
+      }
+      &-3 {
+        height: 551px;
+      }
+    }
+  }
+  &__img {
+    border-radius: 30px;
+  }
+  &__link {
+    color: rgb(32, 32, 39);
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    background-color: rgb(247, 247, 247);
+    width: 112px;
+    height: 36px;
+    border-radius: 52px;
+    padding: 8px 16px;
+    cursor: pointer;
+    &-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      padding: 32px 32px 36px 32px;
+    }
+    &-1 {
+      color: rgb(32, 32, 39);
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 39px;
+      text-align: left;
+    }
+    &-2 {
+      display: flex;
+      flex-direction: column;
+      width: 378px;
+      min-height: 160px;
+      background-color: rgb(255, 255, 255);
+      border-radius: 30px;
+      transition: transform 1s;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
 
+.game {
+  background-color: rgba(32, 32, 39, 1);
+  background-image: url(img/gamestar1.png), url(img/gamestar2.png);
+  background-repeat: no-repeat;
+  background-position: 85% 1.5%, 95% 2.5%;
+  background-size: 35px 35px, 68px 68px;
+  &__title {
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    text-align: left;
+  }
+  &__wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-top: 72px;
+    padding-bottom: 144px;
+  }
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 48px;
+  }
+  &__subtitle {
+    color: rgb(32, 32, 39);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59px;
+    text-align: left;
+  }
+  &__text {
+    color: rgb(32, 32, 39);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+  }
+  &__img {
+    border-radius: 30px;
+  }
+  &__button {
+    padding: 16px 65px;
+    border: 1px solid rgb(32, 32, 39);
+    border-radius: 60px;
+    background: rgb(32, 32, 39);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
 
+    &:hover {
+      color: rgb(32, 32, 39);
+      background: rgb(255, 255, 255);
+    }
+  }
+}
 
+.footer {
+  min-height: 150px;
+  background: rgb(189, 237, 53);
+  &__text {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    text-align: center;
+    padding-top: 60px;
+  }
+}
+
+@import "tablet";
+@import "mobile";

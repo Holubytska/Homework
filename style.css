@@ -65,6 +65,45 @@ a {
   background: rgb(255, 255, 255);
 }
 
+.ticker {
+  background: rgb(188, 236, 48);
+  position: relative;
+  overflow: hidden;
+}
+.ticker__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.ticker__item {
+  white-space: nowrap;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-animation: ticker 15s linear infinite;
+          animation: ticker 15s linear infinite;
+}
+
+@-webkit-keyframes ticker {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+}
+
+@keyframes ticker {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+}
 .main {
   background-color: rgb(32, 32, 39);
   background-image: url(img/mainstar1.png), url(img/mainstar2.png), url(img/mainbigstar.png);
@@ -255,7 +294,6 @@ a {
   border-radius: 30px;
 }
 .game__button {
-  display: inline-block;
   padding: 16px 65px;
   border: 1px solid rgb(32, 32, 39);
   border-radius: 60px;
@@ -265,10 +303,24 @@ a {
   font-size: 24px;
   font-weight: 600;
   font-family: inherit;
+  cursor: pointer;
 }
 .game__button:hover {
   color: rgb(32, 32, 39);
   background: rgb(255, 255, 255);
+}
+
+.footer {
+  min-height: 150px;
+  background: rgb(189, 237, 53);
+}
+.footer__text {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  text-align: center;
+  padding-top: 60px;
 }
 
 @media (max-width: 1024px) {
