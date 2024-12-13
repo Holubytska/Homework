@@ -46,9 +46,21 @@
         }
 
         &__button{
-            &:hover{
-                display: none;
-            }
+            display: none;
+        }
+
+        &__mobile-btn{
+            display: inline-block;
+            padding: 16px 65px;
+            border: 1px solid $colorBlack;
+            border-radius: 60px;
+            background: $colorBlack;
+            color: $colorWhite;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 600;
+            font-family: inherit;
+            cursor: pointer;
         }
     }
 
@@ -61,6 +73,35 @@
         &__title{
             font-size: 40px;
             line-height: 49px;
+            padding-top: 48px;
+        }
+        &__wrap{
+            padding-top: 48px;
+            padding-bottom: 48px;
+            gap: 24px;
+        }
+        &__wrapper{
+            flex-direction: column;
+        }
+        &__content{
+            align-items: center;
+            gap: 16px;
+        }
+        &__subtitle{
+            font-size: 32px;
+            line-height: 39px;
+        }
+        &__text{
+            font-size: 16px;
+            line-height: 20px;
+        }
+        &__button{
+            font-size: 16px;
+            padding: 16px 110px;
+            margin-top: 16px;
+        }
+        &__img{
+            order: -1;
         }
     }
     .footer{

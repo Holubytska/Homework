@@ -1,3 +1,5 @@
+@import 'vars';
+
 * {
   margin: 0;
   padding: 0;
@@ -24,9 +26,9 @@ a {
   background-repeat: no-repeat;
   background-position: 7% 15%, 12% 8%, 65% 70%, 75% 80%, top right;
   background-size: 57px 57px, 35px 35px, 37px 37px, 83px 83px, 700px 700px;
-  background-color: rgba(225, 255, 143, 1);
+  background-color: $colorLightGreen;
   &__title {
-    color: rgb(32, 32, 39);
+    color: $colorBlack;
     font-size: 64px;
     font-weight: 700;
     line-height: 78px;
@@ -36,7 +38,7 @@ a {
     max-width: 769px;
   }
   &__text {
-    color: rgb(32, 32, 39);
+    color: $colorBlack;
     font-size: 24px;
     font-weight: 400;
     line-height: 32px;
@@ -50,46 +52,50 @@ a {
   &__button {
     display: inline-block;
     padding: 16px 65px;
-    border: 1px solid rgb(32, 32, 39);
+    border: 1px solid $colorBlack;
     border-radius: 60px;
-    background: rgb(32, 32, 39);
-    color: rgb(255, 255, 255);
+    background: $colorBlack;
+    color: $colorWhite;
     text-align: center;
     font-size: 24px;
     font-weight: 600;
     font-family: inherit;
+    cursor: pointer;
     &:hover {
-      color: rgb(32, 32, 39);
-      background: rgb(255, 255, 255);
+      color: $colorBlack;
+      background: $colorWhite;
     }
+  }
+  &__mobile-btn{
+    display: none;
   }
 }
 
-.ticker{
-    background: rgba(188, 236, 48, 1);
-    position: relative;
-    overflow: hidden;
-    &__wrapper{
+.ticker {
+  background: $colorBrightGreen;
+  position: relative;
+  overflow: hidden;
+  &__wrapper {
     display: flex;
-    }
-    &__item {
+  }
+  &__item {
     white-space: nowrap;
     flex-shrink: 0;
     animation: ticker 15s linear infinite;
-    }
+  }
 }
 
-@keyframes ticker{
-    0%{
-     transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-100%);  
-    }
+@keyframes ticker {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
 .main {
-  background-color: rgba(32, 32, 39, 1);
+  background-color: $colorBlack;
   background-image: url(img/mainstar1.png), url(img/mainstar2.png),
     url(img/mainbigstar.png);
   background-repeat: no-repeat;
@@ -97,7 +103,7 @@ a {
   background-size: 32px 32px, 55px 55px, 585px 585px;
   padding-bottom: 96px;
   &__title {
-    color: rgb(255, 255, 255);
+    color: $colorWhite;
     font-size: 64px;
     font-weight: 700;
     line-height: 78px;
@@ -107,7 +113,7 @@ a {
   }
 
   &__text {
-    color: rgb(255, 255, 255);
+    color: $colorWhite;
     font-size: 24px;
     font-weight: 400;
     line-height: 32px;
@@ -123,7 +129,7 @@ a {
       width: 378px;
       display: flex;
       flex-direction: column;
-      background-color: rgb(255, 255, 255);
+      background-color: $colorWhite;
       border-radius: 30px;
       transition: transform 1s;
       &:hover {
@@ -144,11 +150,11 @@ a {
     border-radius: 30px;
   }
   &__link {
-    color: rgb(32, 32, 39);
+    color: $colorBlack;
     font-size: 16px;
     font-weight: 500;
     text-align: left;
-    background-color: rgb(247, 247, 247);
+    background-color: $colorLightGray;
     width: 112px;
     height: 36px;
     border-radius: 52px;
@@ -161,7 +167,7 @@ a {
       padding: 32px 32px 36px 32px;
     }
     &-1 {
-      color: rgb(32, 32, 39);
+      color: $colorBlack;
       font-size: 32px;
       font-weight: 700;
       line-height: 39px;
@@ -172,7 +178,7 @@ a {
       flex-direction: column;
       width: 378px;
       min-height: 160px;
-      background-color: rgb(255, 255, 255);
+      background-color: $colorWhite;
       border-radius: 30px;
       transition: transform 1s;
       &:hover {
@@ -183,13 +189,13 @@ a {
 }
 
 .game {
-  background-color: rgba(32, 32, 39, 1);
+  background-color: $colorBlack;
   background-image: url(img/gamestar1.png), url(img/gamestar2.png);
   background-repeat: no-repeat;
   background-position: 85% 1.5%, 95% 2.5%;
   background-size: 35px 35px, 68px 68px;
   &__title {
-    color: rgb(255, 255, 255);
+    color: $colorWhite;
     font-size: 64px;
     font-weight: 700;
     line-height: 78px;
@@ -206,7 +212,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: rgb(255, 255, 255);
+    background-color: $colorWhite;
     border-radius: 30px;
   }
   &__content {
@@ -217,14 +223,14 @@ a {
     padding: 48px;
   }
   &__subtitle {
-    color: rgb(32, 32, 39);
+    color: $colorBlack;
     font-size: 48px;
     font-weight: 700;
     line-height: 59px;
     text-align: left;
   }
   &__text {
-    color: rgb(32, 32, 39);
+    color: $colorBlack;
     font-size: 24px;
     font-weight: 400;
     line-height: 32px;
@@ -235,10 +241,10 @@ a {
   }
   &__button {
     padding: 16px 65px;
-    border: 1px solid rgb(32, 32, 39);
+    border: 1px solid $colorBlack;
     border-radius: 60px;
-    background: rgb(32, 32, 39);
-    color: rgb(255, 255, 255);
+    background: $colorBlack;
+    color: $colorWhite;
     text-align: center;
     font-size: 24px;
     font-weight: 600;
@@ -246,17 +252,17 @@ a {
     cursor: pointer;
 
     &:hover {
-      color: rgb(32, 32, 39);
-      background: rgb(255, 255, 255);
+      color: $colorBlack;
+      background: $colorWhite;
     }
   }
 }
 
 .footer {
   min-height: 150px;
-  background: rgb(189, 237, 53);
+  background: $colorBrightGreen;
   &__text {
-    color: rgb(0, 0, 0);
+    color: $colorBlack;
     font-size: 24px;
     font-weight: 600;
     line-height: 29px;
