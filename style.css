@@ -5,6 +5,10 @@
           box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -19,7 +23,7 @@ a {
 }
 
 .top {
-  min-height: 800px;
+  min-height: 710px;
   background-image: url(img/topstar1.png), url(img/topstar2.png), url(img/topstar3.png), url(img/topstar4.png), url(img/topstar5.png);
   background-repeat: no-repeat;
   background-position: 7% 15%, 12% 8%, 65% 70%, 75% 80%, top right;
@@ -298,7 +302,7 @@ a {
   border-radius: 30px;
 }
 .game__button {
-  padding: 16px 65px;
+  padding: 18px 75px;
   border: 1px solid rgb(32, 32, 39);
   border-radius: 60px;
   background: rgb(32, 32, 39);
@@ -308,6 +312,7 @@ a {
   font-weight: 600;
   font-family: inherit;
   cursor: pointer;
+  margin-top: 12px;
 }
 .game__button:hover {
   color: rgb(32, 32, 39);
@@ -420,11 +425,15 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .top__title {
     font-size: 40px;
     line-height: 49px;
     text-align: center;
+    padding-top: 147px;
   }
   .top__text {
     font-size: 16px;
@@ -436,7 +445,9 @@ a {
   }
   .top__mobile-btn {
     display: inline-block;
-    padding: 16px 65px;
+    width: 285px;
+    height: 55px;
+    padding: 16px;
     border: 1px solid rgb(32, 32, 39);
     border-radius: 60px;
     background: rgb(32, 32, 39);
@@ -446,6 +457,9 @@ a {
     font-weight: 600;
     font-family: inherit;
     cursor: pointer;
+  }
+  .ticker__img {
+    height: 46px;
   }
   .main {
     display: none;
@@ -470,9 +484,7 @@ a {
             flex-direction: column;
   }
   .game__content {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    padding: 30px 30px 32px 30px;
     gap: 16px;
   }
   .game__subtitle {
@@ -489,12 +501,17 @@ a {
     margin-top: 16px;
   }
   .game__img {
+    min-height: 285px;
     -webkit-box-ordinal-group: 0;
         -ms-flex-order: -1;
             order: -1;
   }
+  .footer {
+    min-height: 100px;
+  }
   .footer__text {
     font-size: 16px;
     line-height: 20px;
+    padding-top: 40px;
   }
 }/*# sourceMappingURL=style.css.map */

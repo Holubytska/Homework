@@ -1,9 +1,13 @@
-@import 'vars';
+@import "vars";
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -20,7 +24,7 @@ a {
 }
 
 .top {
-  min-height: 800px;
+  min-height: 710px;
   background-image: url(img/topstar1.png), url(img/topstar2.png),
     url(img/topstar3.png), url(img/topstar4.png), url(img/topstar5.png);
   background-repeat: no-repeat;
@@ -66,7 +70,7 @@ a {
       background: $colorWhite;
     }
   }
-  &__mobile-btn{
+  &__mobile-btn {
     display: none;
   }
 }
@@ -240,7 +244,7 @@ a {
     border-radius: 30px;
   }
   &__button {
-    padding: 16px 65px;
+    padding: 18px 75px;
     border: 1px solid $colorBlack;
     border-radius: 60px;
     background: $colorBlack;
@@ -250,6 +254,7 @@ a {
     font-weight: 600;
     font-family: inherit;
     cursor: pointer;
+    margin-top: 12px;
 
     &:hover {
       color: $colorBlack;
