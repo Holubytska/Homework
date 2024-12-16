@@ -129,6 +129,11 @@ a {
     display: flex;
     gap: 32px;
     flex-wrap: wrap;
+    &-wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
     &-wrapper {
       width: 378px;
       display: flex;

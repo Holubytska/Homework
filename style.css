@@ -146,6 +146,16 @@ a {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
+.main__game-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 32px;
+}
 .main__game-wrapper {
   width: 378px;
   display: -webkit-box;
@@ -412,6 +422,7 @@ a {
     padding-right: 16px;
   }
   .top {
+    min-height: 650px;
     background-image: url(img/topstar1.png), url(img/topstar2.png), url(img/topstar3.png), url(img/topstar4.png), url(img/topstar5.png), url(img/mobilebigstar.png);
     background-repeat: no-repeat;
     background-position: 10% 15%, 25% 8%, 73% 83%, 90% 90%, top, top right;
